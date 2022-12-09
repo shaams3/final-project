@@ -1,0 +1,233 @@
+header{
+    background-color:white;
+    width: 95%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo{ 
+    width: 200px;
+    height: 100px;
+}
+
+.navigation a{
+    color: gray;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: aqua;
+}
+
+section{
+    padding: 100px 100px;
+}
+
+.main-topic{
+    background-color: aqua;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background:url(res/main.jpg)no-repeat;
+    background-size:1370px;
+    background-position: center;
+}
+
+.main-topic h2{
+    color: brown;
+}
+
+.main-topic h3{
+    color: aqua;
+    text-transform: uppercase;
+}
+
+.main-btn{
+    color: blue;
+    background-color: aqua;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover{
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.514);
+}
+
+.tittle{
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 5px 25px ;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.info h2{
+    color: aqua;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.info h2:hover{
+    color: white;
+}
+
+.info{
+    text-align: center;
+}
+
+.image{
+    text-align: center;
+}
+
+.project-card{
+    background-color: white;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+ .imfo1{
+    padding: 1em;
+ }
+
+ .categeory{
+    font-size: 2em;
+    color: #000;
+ }
+
+ .price{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+ }
+ span{
+    font-size: 1.2em;
+    color: red;
+ }
+
+ .drinks-menu{
+   background-image: url(./res/burger1.jpg);
+    background-color:blue;
+ }
+
+ .contact .icon{
+    font-size: 4.5em;
+ }
+
+ .contact .info h3{
+    color: #000;
+ }
+
+ .contact .info p{
+    font-size: 1.5em;
+ }
+
+ .footer{
+    background-color: #000;
+ }
+
+ @media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation{
+        padding-left: 10px;
+    }
+
+    .tittle{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+ }
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+    }
+
+    .main-content h2{
+        font-size: 0.6em;
+    }
+
+    .main-content h3{
+        font-size: 1.2em
+}
+
+}
